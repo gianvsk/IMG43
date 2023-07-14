@@ -1,0 +1,21 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.footer-paragraph {
+  display: flex;
+  width: 255px;
+  height: 40px;
+  flex-direction: column;
+}
+.footer-paragraph__paragraph {
+  text-align: start;
+  color: #000;
+  font-family: HelveticaNeue;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 0.400000006;
+}/*# sourceMappingURL=style.css.map */

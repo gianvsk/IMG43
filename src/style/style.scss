@@ -1,0 +1,28 @@
+$palette: (
+    text :(
+        main: #1D1D1D,
+        secondary: #6D707A,
+        black: #000
+    ),
+    input :(
+        searchbar: #DDE1ED,
+        placeholder: #000
+    ),
+    button: (
+        start-gradient: #0081FA,
+        end-gradient2: #009FF2
+    ),
+    signUp: (
+        userType: #0191F6,
+        userBorder: #DDE1ED,
+        signup: #0184F9,
+        grey: #999,
+        black: #000
+    )
+);
+
+@font-face {
+    font-family: HelveticaNeue;
+    src: url('../fonts/helveticaneue.woff');
+}
+

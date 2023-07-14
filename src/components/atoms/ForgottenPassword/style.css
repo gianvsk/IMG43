@@ -1,0 +1,14 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.navbar-button-modal-forgot-password {
+  text-align: right;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #0184F9;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 5.2">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M8 0H3.93141C1.76015 0 0 1.76015 0 3.93141V8H3V3.93141C3 3.41701 3.41701 3 3.93141 3H8V0ZM8 23H3.93141C3.41701 23 3 22.583 3 22.0686V18H0V22.0686C0 24.2398 1.76015 26 3.93141 26H8V23ZM18 26V23H22.0686C22.583 23 23 22.583 23 22.0686V18H26V22.0686C26 24.2398 24.2398 26 22.0686 26H18ZM18 3V0H22.0686C24.2398 0 26 1.76015 26 3.93141V8H23V3.93141C23 3.41701 22.583 3 22.0686 3H18Z" fill="url(#paint0_linear_321_37)"/>
+<path id="Ellipse (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M13 9.5705C11.1059 9.5705 9.57052 11.1059 9.57052 13C9.57052 14.894 11.1059 16.4295 13 16.4295C14.8941 16.4295 16.4295 14.894 16.4295 13C16.4295 11.1059 14.8941 9.5705 13 9.5705ZM7 13C7 9.68628 9.68629 6.99998 13 6.99998C16.3137 6.99998 19 9.68628 19 13C19 16.3137 16.3137 19 13 19C9.68629 19 7 16.3137 7 13Z" fill="black"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_321_37" x1="26" y1="26" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0081FA"/>
+<stop offset="1" stop-color="#009FF2"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,14 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.navbar-button-modal-title {
+  color: #1D1D1D;
+  text-align: center;
+  font-family: HelveticaNeue;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */

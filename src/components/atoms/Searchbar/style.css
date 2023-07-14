@@ -1,0 +1,25 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.hero-container-searchbar-input {
+  width: 100%;
+}
+.hero-container-searchbar-input .hero-container-searchbar-input__input {
+  width: 100%;
+  color: #000;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #FFF;
+  border: 0;
+}
+.hero-container-searchbar-input .hero-container-searchbar-input__input::-moz-placeholder {
+  color: #000;
+}
+.hero-container-searchbar-input .hero-container-searchbar-input__input::placeholder {
+  color: #000;
+}/*# sourceMappingURL=style.css.map */

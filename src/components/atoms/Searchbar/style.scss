@@ -1,0 +1,22 @@
+@import '../../../style/style.scss';
+@import '../../../style/style.css';
+
+.hero-container-searchbar-input {
+    width:100%;
+
+    .hero-container-searchbar-input__input {
+        width:100%;
+        color: #000;
+        font-family: HelveticaNeue;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        background-color: #FFF;
+        border:0;
+
+        &::placeholder {
+            color: map-get(map-get($palette, input), placeholder);
+        }
+    }
+}

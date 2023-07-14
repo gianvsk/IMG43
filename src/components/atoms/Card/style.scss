@@ -1,0 +1,11 @@
+
+
+.results-card {
+    grid-column: auto ;
+    grid-row: auto;
+
+    &__image {
+        width:100%;
+        height:100%;
+    }
+}

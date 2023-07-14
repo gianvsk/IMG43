@@ -1,0 +1,52 @@
+@import '../../../style/style.scss';
+@import '../../../style/style.css';
+
+.navbar-button-modal-userType {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 46px;
+}
+
+.navbar-button-modal-userType-container--blue {
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid map-get(map-get($palette, signUp), userType);
+}
+
+.navbar-button-modal-userType-container--black {
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid map-get(map-get($palette, signUp), userBorder);
+    color: map-get(map-get($palette, text), black);
+    transition: all 0.3s ease-in;
+    &:hover {
+        border-bottom: 1px solid map-get(map-get($palette, signUp), userType);
+    }
+    &:hover .navbar-button-modal-userType-container__userType--black {
+        
+        color: map-get(map-get($palette, signUp), userType);
+    }
+}
+
+.navbar-button-modal-userType-container__userType--blue {
+    color: map-get(map-get($palette, signUp), userType);
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navbar-button-modal-userType-container__userType--black {
+    color: map-get(map-get($palette, text), black);
+    text-align: center;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.3s ease-in;
+}

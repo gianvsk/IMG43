@@ -1,0 +1,35 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.footer-container-links {
+  display: flex;
+}
+.footer-container-links__link--start {
+  margin: 0 15px 0 0;
+  color: #000;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.footer-container-links__link--center {
+  margin: 0 15px;
+  color: #000;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+.footer-container-links__link--end {
+  margin: 0 0 0 15px;
+  color: #000;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}/*# sourceMappingURL=style.css.map */

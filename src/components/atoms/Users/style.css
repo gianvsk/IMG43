@@ -1,0 +1,53 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.navbar-button-modal-userType {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 46px;
+}
+
+.navbar-button-modal-userType-container--blue {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #0191F6;
+}
+
+.navbar-button-modal-userType-container--black {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #DDE1ED;
+  color: #000;
+  transition: all 0.3s ease-in;
+}
+.navbar-button-modal-userType-container--black:hover {
+  border-bottom: 1px solid #0191F6;
+}
+.navbar-button-modal-userType-container--black:hover .navbar-button-modal-userType-container__userType--black {
+  color: #0191F6;
+}
+
+.navbar-button-modal-userType-container__userType--blue {
+  color: #0191F6;
+  text-align: center;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navbar-button-modal-userType-container__userType--black {
+  color: #000;
+  text-align: center;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all 0.3s ease-in;
+}/*# sourceMappingURL=style.css.map */

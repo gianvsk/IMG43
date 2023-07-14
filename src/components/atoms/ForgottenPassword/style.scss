@@ -1,0 +1,13 @@
+@import '../../../style/style.scss';
+@import '../../../style/style.css';
+
+.navbar-button-modal-forgot-password {
+    color: map-get(map-get($palette, signUp), forgotPassword);
+    text-align: right;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: map-get(map-get($palette, signUp), signup)
+}

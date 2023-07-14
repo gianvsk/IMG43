@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 60px 0 0 0;
+  flex-wrap: nowrap;
+}/*# sourceMappingURL=style.css.map */

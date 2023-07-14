@@ -1,0 +1,20 @@
+@import '../../../style/style.scss';
+@import '../../../style/style.css';
+
+.footer-paragraph {
+    display: flex;
+    width: 255px;
+    height: 40px;
+    flex-direction: column;
+
+    &__paragraph {
+        text-align: start;
+        color: map-get(map-get($palette, text), black);
+        font-family: HelveticaNeue;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        opacity: 0.4000000059604645;
+    }
+}

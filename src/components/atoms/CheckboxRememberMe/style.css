@@ -1,0 +1,26 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.navbar-button-modal-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-button-modal-checkbox__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid #DDE1ED;
+  background-color: #FFF;
+}
+.navbar-button-modal-checkbox__remember-me {
+  color: #999;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 0 0 10px;
+}/*# sourceMappingURL=style.css.map */

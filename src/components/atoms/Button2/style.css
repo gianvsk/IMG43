@@ -1,0 +1,19 @@
+@import '../../../style/style.css';
+@font-face {
+  font-family: HelveticaNeue;
+  src: url("../fonts/helveticaneue.woff");
+}
+.hero-container-searchbar-button {
+  width: 52px;
+  height: 22px;
+  text-align: center;
+  font-family: HelveticaNeue;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background-color: white;
+  color: #0081FA;
+  padding: 0;
+  margin: 0 0 0 15px;
+}/*# sourceMappingURL=style.css.map */
