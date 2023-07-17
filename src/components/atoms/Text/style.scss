@@ -1,0 +1,26 @@
+@import '../../../style/style.scss';
+
+.hero-container-title {
+    display: flex;
+    flex-direction: column;
+
+    &__first-title {
+        color: map-get(map-get($palette, text), main);
+        text-align: center;
+        font-family: RobotoMedium;
+        font-size: 40px;
+        font-style: normal;
+        line-height: normal;
+        margin:0;
+    }
+
+    &__second-title {
+        color: map-get(map-get($palette, text), secondary);
+        text-align: center;
+        font-family: RobotoRegular;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 38px;
+        margin:0;
+    }
+}

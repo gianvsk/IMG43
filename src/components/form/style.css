@@ -1,7 +1,10 @@
-@import '../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .completed-form {
   width: 100%;
@@ -29,19 +32,17 @@
 }
 .navbar-button-modal-form__input--start::-moz-placeholder {
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   opacity: 0.400000006;
 }
 .navbar-button-modal-form__input--start::placeholder {
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   opacity: 0.400000006;
 }
@@ -58,19 +59,17 @@
 }
 .navbar-button-modal-form__input--center::-moz-placeholder {
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   opacity: 0.400000006;
 }
 .navbar-button-modal-form__input--center::placeholder {
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   opacity: 0.400000006;
 }
@@ -87,19 +86,17 @@
 }
 .navbar-button-modal-form__input--end::-moz-placeholder {
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   opacity: 0.400000006;
 }
 .navbar-button-modal-form__input--end::placeholder {
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   opacity: 0.400000006;
 }/*# sourceMappingURL=style.css.map */

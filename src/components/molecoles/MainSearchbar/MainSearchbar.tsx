@@ -3,6 +3,7 @@ import { useState } from "react"
 import { Button } from "../../atoms/Button/Button"
 import { Searchbar } from "../../atoms/Searchbar/searchbar"
 import './style.css'
+import '../../../style/style.css';
 
 
 export const MainSearchbar = () => {

@@ -1,14 +1,16 @@
-@import '../../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .navbar-button-modal-forgot-password {
   text-align: right;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 14px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   color: #0184F9;
 }/*# sourceMappingURL=style.css.map */

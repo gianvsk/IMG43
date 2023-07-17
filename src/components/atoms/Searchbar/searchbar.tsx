@@ -1,4 +1,5 @@
 import './style.css'
+import '../../../style/style.css';
 
 type SearchbarProps = {
     setSearch : React.Dispatch<React.SetStateAction<string>>

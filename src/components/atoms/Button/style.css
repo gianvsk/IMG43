@@ -1,7 +1,10 @@
-@import '../../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .navbar-button {
   width: 98px;
@@ -10,27 +13,34 @@
   background: linear-gradient(315deg, #0081FA 0%, #009FF2 100%);
   color: #FFF;
   text-align: center;
-  font-family: HelveticaNeue;
+  font-family: RobotoMedium;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
   line-height: 0.5;
+  outline: none;
+}
+.navbar-button:focus, .navbar-button:focus-visible {
+  outline: none;
+  border: 0;
 }
 
 .searchbar-button {
   width: 52px;
   height: 22px;
   text-align: center;
-  font-family: HelveticaNeue;
+  font-family: RobotoMedium;
   font-size: 15px;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
   background-color: white;
   color: #0081FA;
   padding: 0;
   margin: 0 0 0 15px;
+  border: 0;
+}
+.searchbar-button:focus, .searchbar-button:focus-visible {
+  outline: none;
 }
 
 .signup-button {
@@ -39,4 +49,8 @@
   border-radius: 4px;
   background: linear-gradient(315deg, #0081FA 0%, #009FF2 100%);
   margin: 32px 0 0 0;
+  border: 0;
+}
+.signup-button:focus, .signup-button:focus-visible {
+  outline: none;
 }/*# sourceMappingURL=style.css.map */

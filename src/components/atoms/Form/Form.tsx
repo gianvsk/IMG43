@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { UserSignUp } from '../../../model/UserSignUp';
 import '../../../utils/validators'
 import './style.css';
+import '../../../style/style.css';
 import { validateEmail, validateName, validateNumber, validatePassword } from '../../../utils/validators';
 
 export const Form = () => {
@@ -17,26 +18,6 @@ export const Form = () => {
         checkUserInput() ? (newUser = {name: name, surname: surname, telephone: telephone, email: email, password: password},
                             console.log(newUser))
         : console.log('not valid')
-    }
-
-    const setValidName = () => {
-        validateName(name) ? console.log(name) : false
-    }
-
-    const setValidSurname = () => {
-        validateName(name) ? console.log(name) : false
-    }
-
-    const setValidNumber = () => {
-        validateNumber(telephone) ? console.log(telephone) : false
-    }
-
-    const setValidEmail = () => {
-        validateEmail(email) ? console.log(email) : false
-    }
-
-    const setValidPassword = () => {
-        validatePassword(password) ? console.log(password) : false
     }
 
     const checkUserInput = () : boolean => {

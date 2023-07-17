@@ -1,6 +1,5 @@
-import clsx from "clsx"
 import React, { useMemo } from "react"
-import { Component } from "react"
+import '../../../style/style.css';
 
 type TextProps = {
     tag: 'h2' | 'h3' | 'h5' | 'p' | 'a' 

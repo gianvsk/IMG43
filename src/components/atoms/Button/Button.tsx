@@ -1,4 +1,5 @@
 import './style.css'
+import '../../../style/style.css';
 import { useModalSignup } from '../../../contexts/signUp.context';
 import clsx from 'clsx';
 

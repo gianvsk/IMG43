@@ -1,6 +1,7 @@
 import { Icon1 } from "../../atoms/Icon1/Icon1"
 import { MainSearchbar } from "../MainSearchbar/MainSearchbar"
 import './style.css'
+import '../../../style/style.css';
 
 
 export const MainTitlesWrapper = () => {

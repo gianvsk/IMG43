@@ -1,4 +1,5 @@
 import './style.css'
+import '../../../style/style.css';
 
 export const HeroTitle = () => {
     return (

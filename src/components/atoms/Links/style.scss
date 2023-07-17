@@ -1,5 +1,4 @@
 @import '../../../style/style.scss';
-@import '../../../style/style.css';
 
 .footer-container-links {
         width:100%;
@@ -12,10 +11,9 @@
             grid-area: auto auto auto auto;
             margin: 0 15px 0 0;
             color: map-get(map-get($palette, text), black);
-            font-family: HelveticaNeue;
+            font-family: RobotoMedium;
             font-size: 14px;
             font-style: normal;
-            font-weight: 500;
             line-height: 18px;
         }
 
@@ -23,10 +21,9 @@
             grid-area: auto auto auto auto;
             margin: 0 15px;
             color: map-get(map-get($palette, text), black);
-            font-family: HelveticaNeue;
+            font-family: RobotoMedium;
             font-size: 14px;
             font-style: normal;
-            font-weight: 500;
             line-height: 18px;
         }
 
@@ -34,10 +31,9 @@
             grid-area: auto auto auto auto;
             margin: 0 0 0 15px;
             color: map-get(map-get($palette, text), black);
-            font-family: HelveticaNeue;
+            font-family: RobotoMedium;
             font-size: 14px;
             font-style: normal;
-            font-weight: 500;
             line-height: 18px;
         }
 }

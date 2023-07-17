@@ -7,11 +7,10 @@
 
     &__signUp {
         text-align: center;
-        font-family: HelveticaNeue;
+        font-family: RobotoMedium;
         color: map-get(map-get($palette, text), main);
         font-size: 14px;
         font-style: normal;
-        font-weight: 500;
         line-height: normal;
         margin:0 30px 0 0;
     }   

@@ -29,10 +29,9 @@
     &__link {
     color: map-get(map-get($palette, text), main);
     text-align: center;
-    font-family: HelveticaNeue;
+    font-family: RobotoMedium;
     font-size: 15px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
     margin:0px 15px;
     }
@@ -66,10 +65,9 @@
         .container-login-menu__link {
             color: map-get(map-get($palette, text), main);
             text-align: center;
-            font-family: HelveticaNeue;
+            font-family: RobotoMedium;
             font-size: 15px;
             font-style: normal;
-            font-weight: 500;
             line-height: normal;
             margin:0 15px 0 0;
         }

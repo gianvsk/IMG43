@@ -3,7 +3,7 @@ import { Hero } from "../hero/hero"
 import { Navbar } from "../navbar/navbar"
 import { Results } from "../results/results"
 import './style.css'
-
+import '../../../style/style.css';
 
 
 

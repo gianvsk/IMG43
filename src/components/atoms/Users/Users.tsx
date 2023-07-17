@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './style.css'
+import '../../../style/style.css';
 import clsx from 'clsx'
 
 export const Users = () => {

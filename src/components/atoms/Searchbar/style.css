@@ -1,7 +1,10 @@
-@import '../../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .hero-container-searchbar-input {
   width: 100%;
@@ -9,13 +12,13 @@
 .hero-container-searchbar-input .hero-container-searchbar-input__input {
   width: 100%;
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   background-color: #FFF;
   border: 0;
+  outline: none;
 }
 .hero-container-searchbar-input .hero-container-searchbar-input__input::-moz-placeholder {
   color: #000;

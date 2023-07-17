@@ -1,5 +1,4 @@
 @import '../../../style/style.scss';
-@import '../../../style/style.css';
 
 .navbar-button-modal-login-text {
     display: flex;
@@ -10,10 +9,9 @@
     .navbar-button-modal-login-text__text--black {
         color: #999;
         text-align: center;
-        font-family: HelveticaNeue;
+        font-family: RobotoRegular;
         font-size: 14px;
         font-style: normal;
-        font-weight: 400;
         line-height: normal;
         margin:0;
     }
@@ -21,10 +19,9 @@
     .navbar-button-modal-login-text__text--blue {
         color: map-get(map-get($palette, signUp), signup);
         text-align: center;
-        font-family: HelveticaNeue;
+        font-family: RobotoRegular;
         font-size: 14px;
         font-style: normal;
-        font-weight: 400;
         line-height: normal;
         margin:0;
     }

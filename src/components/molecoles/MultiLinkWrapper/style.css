@@ -1,7 +1,10 @@
-@import '../../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .footer-container {
   display: flex;
@@ -21,30 +24,27 @@
   grid-area: auto auto auto auto;
   margin: 0 15px 0 0;
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoMedium;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: 18px;
 }
 .footer-container-links__link--center {
   grid-area: auto auto auto auto;
   margin: 0 15px;
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoMedium;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: 18px;
 }
 .footer-container-links__link--end {
   grid-area: auto auto auto auto;
   margin: 0 0 0 15px;
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoMedium;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: 18px;
 }
 

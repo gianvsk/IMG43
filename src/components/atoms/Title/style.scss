@@ -1,12 +1,10 @@
 @import '../../../style/style.scss';
-@import '../../../style/style.css';
 
 .navbar-button-modal-title {
     color: map-get(map-get($palette, text), main);
     text-align: center;
-    font-family: HelveticaNeue;
+    font-family: RobotoMedium;
     font-size: 30px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
 }

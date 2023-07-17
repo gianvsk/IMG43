@@ -1,5 +1,6 @@
 import { SignUp } from "../SignUp/SignUp";
 import './style.css'
+import '../../../style/style.css';
 import { Links1 } from "../../atoms/Links1/Links1";
 import { useState } from "react";
 import { MainSearchbar } from "../MainSearchbar/MainSearchbar";
@@ -7,7 +8,6 @@ import { MainSearchbar } from "../MainSearchbar/MainSearchbar";
 export const HeaderWrapper = () => {
 
     const [pushed, setPushed] = useState(false)
-    const [search, setSearch] = useState('')
 
     const isPushed = () => {
         setPushed(pushed === true ? false : true)

@@ -1,5 +1,4 @@
 @import '../../../style/style.scss';
-@import '../../../style/style.css';
 
 .nav-links-container {
     display:flex;
@@ -10,10 +9,9 @@
     &__link {
     color: map-get(map-get($palette, text), main);
     text-align: center;
-    font-family: HelveticaNeue;
+    font-family: RobotoMedium;
     font-size: 15px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
     margin:0px 15px;
     }

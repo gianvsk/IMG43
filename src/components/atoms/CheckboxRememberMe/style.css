@@ -1,7 +1,10 @@
-@import '../../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .navbar-button-modal-checkbox {
   display: flex;
@@ -17,7 +20,7 @@
 }
 .navbar-button-modal-checkbox__remember-me {
   color: #999;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

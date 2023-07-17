@@ -1,4 +1,4 @@
-
+import '../../../style/style.css';
 import './style.css'
 
 export const Card = () => {
@@ -12,12 +12,12 @@ export const Card = () => {
     return (
         <div className="results-card">
             <div className='results-card-highlights'>
-                <div className='results-card-hightlights-container'>
-                    <div>
+                <div className='results-card-hightlights__container--first-quarter'>
+                    <div className='hightlights-container-row'>
                         <img src='images/icons/arrow-down.png'></img>
                         <span className='span-values'>1230</span>
                     </div>
-                    <div>
+                    <div className='hightlights-container-row'>
                         <img src='images/icons/eye.png'></img>
                         <span className='span-values'>3437</span>
                     </div>
@@ -27,11 +27,11 @@ export const Card = () => {
                 </div>
                 <div className='results-card-hightlights__container--third-quarter'>
                     <div className='account-image'></div>
-                    <span className='span-values--no-padding'>Sebastiano Garilli</span>
+                    <span className='span-values--end'>Sebastiano Garilli</span>
                 </div>
                 <div className='results-card-hightlights__container--fourth-quarter'>
                     <img src='images/icons/arrow-down.png'></img>
-                    <span className='span-values'>Download</span>
+                    <span className='span-values--end'>Download</span>
                 </div>
             </div>
             <img className="results-card-image" src={convertNumberToSrc()} />

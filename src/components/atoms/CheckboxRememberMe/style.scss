@@ -1,5 +1,4 @@
 @import '../../../style/style.scss';
-@import '../../../style/style.css';
 
 .navbar-button-modal-checkbox {
     display:flex;
@@ -16,7 +15,7 @@
 
     &__remember-me {
         color: map-get(map-get($palette, signUp), grey);
-        font-family: HelveticaNeue;
+        font-family: RobotoRegular;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;

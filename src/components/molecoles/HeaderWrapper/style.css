@@ -1,6 +1,10 @@
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .navbar-container {
   width: 100%;
@@ -30,10 +34,9 @@
 .nav-links-container__link {
   color: #1D1D1D;
   text-align: center;
-  font-family: HelveticaNeue;
+  font-family: RobotoMedium;
   font-size: 15px;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
   margin: 0px 15px;
 }
@@ -63,10 +66,9 @@
   .container-login-menu .container-login-menu__link {
     color: #1D1D1D;
     text-align: center;
-    font-family: HelveticaNeue;
+    font-family: RobotoMedium;
     font-size: 15px;
     font-style: normal;
-    font-weight: 500;
     line-height: normal;
     margin: 0 15px 0 0;
   }

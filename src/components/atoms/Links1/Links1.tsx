@@ -1,5 +1,5 @@
-import clsx from 'clsx'
 import './style.css'
+import '../../../style/style.css';
 
 export const Links1 = () => {
 

@@ -1,6 +1,10 @@
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .navbar-signUp-container {
   display: flex;
@@ -8,11 +12,10 @@
 }
 .navbar-signUp-container__signUp {
   text-align: center;
-  font-family: HelveticaNeue;
+  font-family: RobotoMedium;
   color: #1D1D1D;
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
   margin: 0 30px 0 0;
 }/*# sourceMappingURL=style.css.map */

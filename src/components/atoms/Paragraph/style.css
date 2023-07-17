@@ -1,7 +1,10 @@
-@import '../../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .footer-paragraph {
   display: flex;
@@ -12,10 +15,9 @@
 .footer-paragraph__paragraph {
   text-align: start;
   color: #000;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 12px;
   font-style: normal;
-  font-weight: 400;
   line-height: 18px;
   opacity: 0.400000006;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,10 @@
-@import '../../../style/style.css';
 @font-face {
-  font-family: HelveticaNeue;
-  src: url("../fonts/helveticaneue.woff");
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
 .navbar-button-modal-userType {
   width: 100%;
@@ -34,20 +37,18 @@
 .navbar-button-modal-userType-container__userType--blue {
   color: #0191F6;
   text-align: center;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
 .navbar-button-modal-userType-container__userType--black {
   color: #000;
   text-align: center;
-  font-family: HelveticaNeue;
+  font-family: RobotoRegular;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
   transition: all 0.3s ease-in;
 }/*# sourceMappingURL=style.css.map */
