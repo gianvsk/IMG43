@@ -9,4 +9,10 @@
   background-color: #FFF;
   padding: 20px 60px;
   z-index: 1;
+}
+
+@media screen and (min-device-width: 0) and (max-device-width: 576px) {
+  .navbar {
+    padding: 24px 24px;
+  }
 }/*# sourceMappingURL=style.css.map */

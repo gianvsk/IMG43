@@ -5,7 +5,7 @@ import { Searchbar } from "../../atoms/Searchbar/searchbar"
 import './style.css'
 
 
-export const HeroContainerSearchbar = () => {
+export const MainSearchbar = () => {
 
     const [search, setSearch] = useState(' ')
 

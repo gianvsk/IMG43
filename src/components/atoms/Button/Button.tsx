@@ -6,9 +6,10 @@ type ButtonType = {
     size: 'small' | 'medium' | 'large';
     title: string,
     search?: string
+    click?: () => void
 }
 
-export const Button = ({ size, title, search }: ButtonType) => {
+export const Button = ({ size, title, search, click }: ButtonType) => {
 
     const { visible, setVisible } = useModalSignup()
 
@@ -23,7 +24,7 @@ export const Button = ({ size, title, search }: ButtonType) => {
 
     return (
         <div>
-            {!search &&
+            {!search && !click &&
                 <button className={clsx({ 'navbar-button': size === 'medium' },
                     { 'searchbar-button': size === 'small' },
                     { 'signup-button': size === 'large' })}
@@ -36,6 +37,15 @@ export const Button = ({ size, title, search }: ButtonType) => {
                     { 'searchbar-button': size === 'small' },
                     { 'signup-button': size === 'large' })}
                     onClick={sendData}>
+                    {title}
+                </button>
+            }
+            {click &&
+                <button className={clsx({ 'navbar-button': size === 'medium' },
+                    { 'searchbar-button': size === 'small' },
+                    { 'signup-button': size === 'large' })}
+                    onClick={click}
+                    onSubmit={click}>
                     {title}
                 </button>
             }

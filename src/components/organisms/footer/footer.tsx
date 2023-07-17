@@ -1,4 +1,4 @@
-import { FooterContainer } from "../../molecoles/footer-container/footer-container"
+import { FooterContainer } from "../../molecoles/MultiLinkWrapper/MultiLinkWrapper"
 import './style.css'
 
 export const Footer = () => {

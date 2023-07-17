@@ -1,4 +1,4 @@
-import { HeroContainer } from '../../molecoles/hero-container/hero-container'
+import { MainTitlesWrapper } from '../../molecoles/MainTitlesWrapper/MainTitlesWrapper'
 import './style.css'
 
 
@@ -6,7 +6,7 @@ export const Hero = () => {
 
     return (
         <section className="hero">
-            <HeroContainer/>
+            <MainTitlesWrapper/>
         </section>
     )
 }

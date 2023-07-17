@@ -14,32 +14,28 @@ export const Form = () => {
 
     const onSubmit = () => {
         let newUser : UserSignUp 
-        checkUserInput() ? newUser = {name: name, surname: surname, telephone: telephone, email: email, password: password}
+        checkUserInput() ? (newUser = {name: name, surname: surname, telephone: telephone, email: email, password: password},
+                            console.log(newUser))
         : console.log('not valid')
     }
 
-    const setValidName = (e : React.ChangeEvent<HTMLInputElement>) => {
-        setName(e.target.value),
-        validateName(name) ? console.log(name) : console.log('false')
+    const setValidName = () => {
+        validateName(name) ? console.log(name) : false
     }
 
-    const setValidSurname = (e : React.ChangeEvent<HTMLInputElement>) => {
-        setName(e.target.value),
-        validateName(name) ? console.log(name) : console.log('false')
+    const setValidSurname = () => {
+        validateName(name) ? console.log(name) : false
     }
 
-    const setValidNumber = (e : React.ChangeEvent<HTMLInputElement>) => {
-        setTelephone(e.target.value),
-        validateNumber(telephone) ? console.log(telephone) : console.log('false')
+    const setValidNumber = () => {
+        validateNumber(telephone) ? console.log(telephone) : false
     }
 
-    const setValidEmail = (e : React.ChangeEvent<HTMLInputElement>) => {
-        setEmail(e.target.value),
-        validateEmail(email) ? console.log(email) : console.log('false')
+    const setValidEmail = () => {
+        validateEmail(email) ? console.log(email) : false
     }
 
-    const setValidPassword = (e : React.ChangeEvent<HTMLInputElement>) => {
-        setPassword(e.target.value)
+    const setValidPassword = () => {
         validatePassword(password) ? console.log(password) : false
     }
 
@@ -52,12 +48,12 @@ export const Form = () => {
     }
 
     return (
-        <form className="navbar-button-modal-form">
-            <input type="text" className="navbar-button-modal-form__input--start"  onChange={(e) => setValidName(e)} placeholder="Name"/>
-            <input type="text" className="navbar-button-modal-form__input--center"  onChange={(e) => setValidSurname(e)} placeholder="Surname"/>
-            <input type="text" className="navbar-button-modal-form__input--center"  onChange={(e) => setValidNumber(e)} placeholder="Telephone"/>
-            <input type="text" className="navbar-button-modal-form__input--center"  onChange={(e) => setValidEmail(e)} placeholder="E-mail"/>
-            <input type="text" className="navbar-button-modal-form__input--end"  onChange={(e) => setValidPassword(e)} placeholder="Password"/>
+        <form className="navbar-button-modal-form" onSubmit={onSubmit}>
+            <input type="text" className="navbar-button-modal-form__input--start"  onChange={(e) => setName(e.target.value)} placeholder="Name"/>
+            <input type="text" className="navbar-button-modal-form__input--center"  onChange={(e) => setSurname(e.target.value)} placeholder="Surname"/>
+            <input type="text" className="navbar-button-modal-form__input--center"  onChange={(e) => setTelephone(e.target.value)} placeholder="Telephone"/>
+            <input type="text" className="navbar-button-modal-form__input--center"  onChange={(e) => setEmail(e.target.value)} placeholder="E-mail"/>
+            <input type="text" className="navbar-button-modal-form__input--end"  onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
         </form>
     )
 }

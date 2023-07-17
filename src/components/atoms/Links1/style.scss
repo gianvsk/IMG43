@@ -17,38 +17,32 @@
     line-height: normal;
     margin:0px 15px;
     }
-
-    &__link--no-margin {
-        margin:0;
-    }
-
-}
-
-.nav-links-container-column {
-
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin:0;
-    width:100%;
-
-    &__link {
-    color: map-get(map-get($palette, text), main);
-    text-align: center;
-    font-family: HelveticaNeue;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin:0px 15px;
-    }
-
 }
 
 .separator-line {
-    width:100%;
+    width:0;
     height:1px;
     background-color: black;
     opacity: 0.10000000149011612;
     margin:12px 0;
+}
+
+@media screen and (min-device-width: 0) and (max-device-width: 576px) {
+
+    .nav-links-container {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width:100%;
+    
+        &__link {
+        color: map-get(map-get($palette, text), main);
+        margin:0px;
+        }
+    }
+    
+    .separator-line {
+        width:100%;
+    }
+    
 }

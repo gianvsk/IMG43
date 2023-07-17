@@ -1,13 +1,15 @@
+import clsx from "clsx"
 import React, { useMemo } from "react"
 import { Component } from "react"
 
 type TextProps = {
-    tag: 'h2' | 'h3' | 'h5' | 'p' | 'a'
+    tag: 'h2' | 'h3' | 'h5' | 'p' | 'a' 
     size?: '14' | '15' 
-    children: any
+    classComponent: string
+    children: React.ReactNode
 }
 
-export const Text = ({tag = 'a', size = '15', children} : TextProps) => {
+export const Text = ({tag, size, classComponent, children} : TextProps) => {
 
     const Tag = tag
 
@@ -32,7 +34,7 @@ export const Text = ({tag = 'a', size = '15', children} : TextProps) => {
 
 
     return (
-        <Tag>
+        <Tag className={textSize! + classComponent}>
             {children}
         </Tag>
     )

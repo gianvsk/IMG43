@@ -2,7 +2,7 @@ import { Image } from '../../atoms/Image/Image';
 import { Links } from '../../atoms/Links/Links';
 import './style.css'
 
-export const NavbarImageLinkContainer = () => {
+export const LinkImage = () => {
 
     return (
         <div className='navbar-image-link-container'>

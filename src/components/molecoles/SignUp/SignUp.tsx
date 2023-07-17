@@ -1,7 +1,7 @@
 import { Button } from '../../atoms/Button/Button'
 import './style.css'
 
-export const NavbarSignUp = () => {
+export const SignUp = () => {
 
     return (
         <div className="navbar-signUp-container">
