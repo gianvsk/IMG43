@@ -1,7 +1,7 @@
 import { Button } from "../atoms/Button/Button"
 import { LoginText } from "../atoms/LoginText/LoginText"
 import { CheckboxReminder } from "../molecoles/CheckboxReminder/CheckboxReminder"
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { UserSignUp } from "../../model/UserSignUp";
 import './style.css';
 import '../../style/style.css';

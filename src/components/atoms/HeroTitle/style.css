@@ -6,17 +6,11 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .hero-container-title {
   display: flex;
   flex-direction: column;
 }
+
 .hero-container-title__first-title {
   color: #1D1D1D;
   text-align: center;
@@ -26,6 +20,7 @@
   line-height: normal;
   margin: 0;
 }
+
 .hero-container-title__second-title {
   color: #6D707A;
   text-align: center;
@@ -40,7 +35,6 @@
   .hero-container-title {
     display: flex;
     flex-direction: column;
-    padding: 0 18px 0 18px;
   }
   .hero-container-title__first-title {
     color: #1D1D1D;
@@ -55,7 +49,7 @@
     color: #6D707A;
     text-align: center;
     font-family: RobotoRegular;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     line-height: 38px;
     margin: 0;

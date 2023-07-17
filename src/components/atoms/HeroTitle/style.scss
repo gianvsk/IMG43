@@ -1,0 +1,55 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url("../fonts/Roboto/Roboto-Regular.woff");
+  }
+  @font-face {
+    font-family: RobotoMedium;
+    src: url("../fonts/Roboto/Roboto-Medium.woff");
+  }
+  .hero-container-title {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-container-title__first-title {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: RobotoMedium;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+  }
+  .hero-container-title__second-title {
+    color: #6D707A;
+    text-align: center;
+    font-family: RobotoRegular;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 38px;
+    margin: 0;
+  }
+  
+  @media screen and (min-device-width: 0px) and (max-device-width: 576px) {
+    .hero-container-title {
+      display: flex;
+      flex-direction: column;
+    }
+    .hero-container-title__first-title {
+      color: #1D1D1D;
+      text-align: center;
+      font-family: RobotoMedium;
+      font-size: 34px;
+      font-style: normal;
+      line-height: normal;
+      margin: 0;
+    }
+    .hero-container-title__second-title {
+      color: #6D707A;
+      text-align: center;
+      font-family: RobotoRegular;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 38px;
+      margin: 0;
+    }
+  }
