@@ -1,12 +1,17 @@
-
+import clsx from 'clsx'
 import './style.css'
 
-export const Links1 = () => {
+type LinksProps = {
+    direction: 'row' | 'column'
+}
+
+export const Links1 = ({direction} : LinksProps) => {
 
     return (
-            <ul className="nav-links-container">
-            <h5 className="nav-links-container__link">Explore</h5>
-            <h5 className="nav-links-container__link">Ranking</h5>
+            <ul className={clsx('nav-links-container', {'nav-links-container-column' : direction === 'column'})}>
+            <h5 className={clsx("nav-links-container__link", {'nav-links-container__link--no-margin': direction === 'column'})}>Explore</h5>
+            {direction && <div className='separator-line'/> }
+            <h5 className={clsx("nav-links-container__link", {'nav-links-container__link--no-margin': direction === 'column'})}>Ranking</h5>
             </ul>
     )
 }

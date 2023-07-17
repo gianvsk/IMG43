@@ -1,8 +1,39 @@
 .results-card {
   grid-column: auto;
   grid-row: auto;
+  position: relative;
 }
-.results-card__image {
+
+.results-card-image {
   width: 100%;
   height: 100%;
+}
+
+.results-card-highlights {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  padding: 30px;
+  transition: 0.3s ease-in;
+}
+.results-card .results-card-highlights:hover {
+  opacity: 1;
+}
+.results-card-highlights .hightlights-top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.results-card-highlights .hightlights-top-container .hightlights-top-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.results-card-highlights .hightlights-top-container .hightlights-top-container-column__image {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */

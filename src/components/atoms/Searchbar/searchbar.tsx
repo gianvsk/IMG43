@@ -1,10 +1,10 @@
 import './style.css'
 
-type props = {
+type SearchbarProps = {
     setSearch : React.Dispatch<React.SetStateAction<string>>
 }
 
-export const Searchbar = ({setSearch}: props) => {
+export const Searchbar = ({setSearch}: SearchbarProps) => {
     
     return (
         <div className="hero-container-searchbar-input">

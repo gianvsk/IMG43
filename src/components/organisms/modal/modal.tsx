@@ -1,10 +1,10 @@
 import { Icon1 } from '../../atoms/Icon1/Icon1';
-import { NavbarButtonModalMainContent } from '../../molecoles/modal-body/navbar-button-modal-main-content';
 import { Title } from '../../atoms/Title/Title';
 import { Users } from '../../atoms/Users/Users';
 import clsx from 'clsx';
 import './style.css'
 import { useModalSignup } from '../../../contexts/signUp.context';
+import { CompletedForm } from '../../form/completedForm';
 
 type Props = {
     open: boolean
@@ -24,7 +24,7 @@ export const Modal = ({ open }: Props) => {
                 <Icon1/>
                 <Title/>
                 <Users/>
-                <NavbarButtonModalMainContent/>
+                <CompletedForm/>
             </div>
         </div>
     )

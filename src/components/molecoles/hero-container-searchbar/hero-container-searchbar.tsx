@@ -11,7 +11,7 @@ export const HeroContainerSearchbar = () => {
 
     return (
         <div className="hero-container-searchbar">
-            <Searchbar setSearch={setSearch} />
+            <Searchbar setSearch={setSearch}/>
             <div className="hero-container-searchbar__button-container">
                 <Button size={'small'} title='Search' search={search}/>
             </div>

@@ -2,10 +2,14 @@
 @import '../../../style/style.css';
 
 .footer-container-links {
-
-        display:flex;
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+        padding:0 60px;
 
         &__link--start {
+            grid-area: auto auto auto auto;
             margin: 0 15px 0 0;
             color: map-get(map-get($palette, text), black);
             font-family: HelveticaNeue;
@@ -16,6 +20,7 @@
         }
 
         &__link--center {
+            grid-area: auto auto auto auto;
             margin: 0 15px;
             color: map-get(map-get($palette, text), black);
             font-family: HelveticaNeue;
@@ -26,6 +31,7 @@
         }
 
         &__link--end {
+            grid-area: auto auto auto auto;
             margin: 0 0 0 15px;
             color: map-get(map-get($palette, text), black);
             font-family: HelveticaNeue;
@@ -34,4 +40,88 @@
             font-weight: 500;
             line-height: 18px;
         }
+}
+
+@media screen and (min-device-width:0) and (max-device-width: 576px) {
+
+    .footer-container-links {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        margin:0;
+
+        &__link--start {
+            grid-area: 1/ 1 /1 /1;
+            text-align: left;
+            padding:6px 0;
+            margin:0;
+        }
+    
+        &__link--center {
+            grid-area: auto/1/auto/2;
+            text-align: left;
+            padding:6px 0;
+            margin:0;
+        }
+    
+        &__link--side {
+            grid-area: 1/2/2/3;
+            text-align: left;
+            padding:6px 0;
+            margin:0;
+        }
+    
+        &__link--end {
+            grid-area: 2/3/3/2;
+            text-align: left;
+            padding:6px 0;
+            margin:0;
+        }
+    
+    }
+
+    
+}
+
+@media screen and (min-device-width:0) and (max-device-width: 992px) {
+
+    .footer-container-links {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: flex-start;
+        align-items: center;
+        padding:30px 0;
+
+    &__link--start {
+        grid-area: 1/ 1 /1 /1;
+        text-align: left;
+        padding:6px 0;
+        margin:0;
+    }
+
+    &__link--center {
+        grid-area: auto/1/auto/2;
+        text-align: left;
+        padding:6px 0;
+        margin:0;
+    }
+
+    &__link--side {
+        grid-area: 1/2/2/3;
+        text-align: left;
+        padding:6px 0;
+        margin:0;
+    }
+
+    &__link--end {
+        grid-area: 2/3/3/2;
+        text-align: left;
+        padding:6px 0;
+        margin:0;
+    }
+
+}
+
 }
