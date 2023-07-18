@@ -1,3 +1,6 @@
-.prova {
-  width: 100%;
+.image-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }/*# sourceMappingURL=style.css.map */

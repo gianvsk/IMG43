@@ -1,53 +1,48 @@
 @import '../../../style/style.scss';
 
 .footer-container {
-    display: flex;
-    width: 100%;
+    width:100%;
+    display:flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-container-links {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display:flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
+    padding:0 60px;
 
     &__link--start {
-        grid-area: auto auto auto auto;
         margin: 0 15px 0 0;
-        color: map-get(map-get($palette, text), black);
-        font-family: RobotoMedium;
-        font-size: 14px;
-        font-style: normal;
-        line-height: 18px;
     }
 
     &__link--center {
-        grid-area: auto auto auto auto;
         margin: 0 15px;
-        color: map-get(map-get($palette, text), black);
-        font-family: RobotoMedium;
-        font-size: 14px;
-        font-style: normal;
-        line-height: 18px;
     }
 
     &__link--end {
-        grid-area: auto auto auto auto;
         margin: 0 0 0 15px;
-        color: map-get(map-get($palette, text), black);
-        font-family: RobotoMedium;
-        font-size: 14px;
-        font-style: normal;
-        line-height: 18px;
+
+    }
+}
+
+.link {
+    color: map-get($palette, black);
+    font-family: RobotoMedium;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+
+    &:hover {
+        color: map-get($palette, black);
     }
 }
 
 @media screen and (min-device-width:0) and (max-device-width: 576px) {
 
     .footer-container-links {
+        display:grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         justify-content: flex-start;
@@ -94,6 +89,8 @@
     }
 
     .footer-container-links {
+        width:100%;
+        display:grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         justify-content: flex-start;

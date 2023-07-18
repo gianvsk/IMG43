@@ -4,17 +4,17 @@ import {ImageParagraph} from '../ImageParagraph/ImageParagraph'
 import './style.css'
 import '../../../style/style.css';
 
-export const FooterContainer = () => {
+export const MultiLinkWrapper = () => {
 
     return (
         <div className="footer-container">
             <ImageParagraph />
             <ul className='footer-container-links'>
-                <a className='footer-container-links__link--start'>Explore</a>
-                <h5 className='footer-container-links__link--center'>Ranking</h5>
-                <h5 className='footer-container-links__link--center'>About</h5>
-                <h5 className='footer-container-links__link--center footer-container-links__link--side'>Privacy Policy</h5>
-                <h5 className='footer-container-links__link--end'>Terms and Conditions</h5>
+                <a className='link footer-container-links__link--start'>Explore</a>
+                <a className='link footer-container-links__link--center'>Ranking</a>
+                <a className='link footer-container-links__link--center'>About</a>
+                <a className='link footer-container-links__link--center footer-container-links__link--side'>Privacy Policy</a>
+                <a className='link footer-container-links__link--end'>Terms and Conditions</a>
             </ul>
             <Icon />
         </div>

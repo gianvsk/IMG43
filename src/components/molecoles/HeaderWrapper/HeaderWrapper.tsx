@@ -2,16 +2,17 @@ import { SignUp } from "../SignUp/SignUp";
 import './style.css'
 import '../../../style/style.css';
 import { Links1 } from "../../atoms/Links1/Links1";
-import { useState } from "react";
 import { MainSearchbar } from "../MainSearchbar/MainSearchbar";
+import { useLayout } from "../../../contexts/burgerMenuContext";
 
 export const HeaderWrapper = () => {
 
-    const [pushed, setPushed] = useState(false)
+/*     const [pushed, setPushed] = useState(false) */
+
+    const {pushed, setPushed} = useLayout()
 
     const isPushed = () => {
         setPushed(pushed === true ? false : true)
-        console.log('pushed', pushed)
     }
 
     return (

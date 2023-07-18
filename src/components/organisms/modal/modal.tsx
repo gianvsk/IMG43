@@ -24,7 +24,7 @@ export const Modal = ({ open }: Props) => {
                 <Icon1/>
                 <Title/>
                 <Users/>
-                <CompletedForm/>
+                <CompletedForm closeModal={closeModal}/>
             </div>
         </div>
     )

@@ -8,13 +8,12 @@
 }
 .footer-container-links {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0 60px;
 }
 .footer-container-links__link--start {
-  grid-area: auto auto auto auto;
   margin: 0 15px 0 0;
   color: #000;
   font-family: RobotoMedium;
@@ -23,7 +22,6 @@
   line-height: 18px;
 }
 .footer-container-links__link--center {
-  grid-area: auto auto auto auto;
   margin: 0 15px;
   color: #000;
   font-family: RobotoMedium;
@@ -32,7 +30,6 @@
   line-height: 18px;
 }
 .footer-container-links__link--end {
-  grid-area: auto auto auto auto;
   margin: 0 0 0 15px;
   color: #000;
   font-family: RobotoMedium;

@@ -9,7 +9,7 @@
     margin-top:100px;
 }
 
-@media screen and (min-device-width: 0px) and (max-device-width:576px) {
+@media screen and (min-device-width: 0px) and (max-device-width:768px) {
     
     .results {
         grid-template-columns: repeat(2, 1fr);

@@ -16,7 +16,6 @@ export const Button = ({ size, title, search, click }: ButtonType) => {
 
     const openModal = () => {
         !visible ? setVisible(true) : setVisible(false)
-        console.log(visible)
     }
 
     const sendData = () => {

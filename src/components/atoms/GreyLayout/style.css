@@ -6,17 +6,16 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
-.paragraph {
-  margin: 18px 0 0 0;
-}
-.paragraph__paragraph-text {
-  width: 100%;
-  text-align: start;
-  color: #000;
-  font-family: RobotoRegular;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 18px;
-  margin: 0;
+.grey-layout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   opacity: 0.400000006;
+  background: #000;
+}
+
+.grey-layout-invisible {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

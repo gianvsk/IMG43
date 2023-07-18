@@ -7,7 +7,11 @@ import './style.css';
 import '../../style/style.css';
 import { validateEmail, validateName, validateNumber, validatePassword } from "../../utils/validators";
 
-export const CompletedForm = () => {
+type FormProps = {
+    closeModal: () => void
+}
+
+export const CompletedForm = ({closeModal} : FormProps) => {
 
     const[name, setName] = useState('')
     const[surname, setSurname] = useState('')
@@ -18,6 +22,7 @@ export const CompletedForm = () => {
     const onSubmit = () => {
         let newUser : UserSignUp 
         checkUserInput() ? (newUser = {name: name, surname: surname, telephone: telephone, email: email, password: password},
+                            closeModal(),
                             console.log(newUser))
         : console.log('not valid')
     }
@@ -27,7 +32,7 @@ export const CompletedForm = () => {
         validateName(surname) &&
         validateNumber(telephone) &&
         validateEmail(email) &&
-        validatePassword(password)) return true; else return false
+        validatePassword(password)) return true ; else return false
     }
 
 

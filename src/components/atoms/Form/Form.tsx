@@ -17,7 +17,7 @@ export const Form = () => {
         let newUser : UserSignUp 
         checkUserInput() ? (newUser = {name: name, surname: surname, telephone: telephone, email: email, password: password},
                             console.log(newUser))
-        : console.log('not valid')
+        : false
     }
 
     const checkUserInput = () : boolean => {

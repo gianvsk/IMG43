@@ -1,11 +1,11 @@
-import { FooterContainer } from "../../molecoles/MultiLinkWrapper/MultiLinkWrapper"
+import { MultiLinkWrapper } from "../../molecoles/MultiLinkWrapper/MultiLinkWrapper"
 import './style.css'
 import '../../../style/style.css';
 
 export const Footer = () => {
     return (
         <div className="footer">
-            <FooterContainer/>
+            <MultiLinkWrapper/>
         </div>
     )
 }
