@@ -1,5 +1,5 @@
 import '../../../style/style.css';
-import { AccountImage } from '../AccountImage/AccountImage';
+import { AccountImage } from '../../atoms/AccountImage/AccountImage';
 import './style.css'
 
 export const Card = () => {

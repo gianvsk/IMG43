@@ -6,6 +6,10 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
+.image-links-container {
+  display: flex;
+}
+
 .nav-links-container {
   display: flex;
   align-items: center;
@@ -32,7 +36,7 @@
   margin: 12px 0;
 }
 
-@media screen and (min-device-width: 0) and (max-device-width: 576px) {
+@media screen and (min-device-width: 0) and (max-device-width: 768px) {
   .nav-links-container {
     display: flex;
     flex-direction: column;
@@ -42,6 +46,9 @@
   .nav-links-container__link {
     color: #1D1D1D;
     margin: 0px;
+  }
+  .nav-links-container--hidden {
+    display: none;
   }
   .separator-line {
     width: 100%;

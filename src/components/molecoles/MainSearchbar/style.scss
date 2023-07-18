@@ -21,3 +21,7 @@
         border-left:1px solid map-get(map-get($palette, input), searchbar )
     }
 }
+
+.hero-container-searchbar--adapted-to-nav {
+    width:auto;
+}

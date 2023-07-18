@@ -4,6 +4,7 @@ import '../../../style/style.css';
 import { Links1 } from "../../atoms/Links1/Links1";
 import { MainSearchbar } from "../MainSearchbar/MainSearchbar";
 import { useLayout } from "../../../contexts/burgerMenuContext";
+import { ImageLinks } from "../ImageLinks/ImageLinks";
 
 export const HeaderWrapper = () => {
 
@@ -18,7 +19,7 @@ export const HeaderWrapper = () => {
     return (
         <>
             <div className='navbar-container'>
-                <Links1 />
+                <ImageLinks />
                 <SignUp />
             </div>
             <div className="container-login-menu">

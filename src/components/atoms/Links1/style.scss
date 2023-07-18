@@ -1,5 +1,10 @@
 @import '../../../style/style.scss';
 
+.image-links-container {
+    display:flex;
+
+}
+
 .nav-links-container {
     display:flex;
     align-items: center;
@@ -20,6 +25,8 @@
     }
 }
 
+
+
 .separator-line {
     width:0;
     height:1px;
@@ -28,7 +35,7 @@
     margin:12px 0;
 }
 
-@media screen and (min-device-width: 0) and (max-device-width: 576px) {
+@media screen and (min-device-width: 0) and (max-device-width: 768px) {
 
     .nav-links-container {
         display:flex;
@@ -40,6 +47,10 @@
         color: map-get(map-get($palette, text), main);
         margin:0px;
         }
+    }
+
+    .nav-links-container--hidden {
+        display:none;
     }
     
     .separator-line {

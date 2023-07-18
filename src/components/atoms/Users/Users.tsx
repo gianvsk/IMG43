@@ -1,11 +1,16 @@
-import { useEffect, useState } from 'react'
+import { Dispatch, SetStateAction, useEffect } from 'react'
 import './style.css'
 import '../../../style/style.css';
 import clsx from 'clsx'
 
-export const Users = () => {
+type UsersProps = {
+  activeUser: string
+  setActiveUser : Dispatch<SetStateAction<string>>
+}
 
-    const [activeUser, setActiveUser] = useState('user')
+export const Users = ({activeUser, setActiveUser} : UsersProps) => {
+
+/*     const [activeUser, setActiveUser] = useState('user') */
 
     const checkUser = () => {
         clsx({'navbar-button-modal-userType-container--blue' : activeUser === 'user',
@@ -29,9 +34,11 @@ export const Users = () => {
         checkUser()
         checkContributor()
         checkBrand()
+        console.log(activeUser)
     }, [activeUser])
 
     return (
+      
         <div className="navbar-button-modal-userType">
             <div 
             className={clsx({'navbar-button-modal-userType-container--blue' : activeUser === 'user',

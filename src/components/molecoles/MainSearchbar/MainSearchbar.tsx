@@ -4,17 +4,21 @@ import { Button } from "../../atoms/Button/Button"
 import { Searchbar } from "../../atoms/Searchbar/searchbar"
 import './style.css'
 import '../../../style/style.css';
+import clsx from "clsx";
 
+type MainSearchbarProps = {
+    size?: 'big'
+}
 
-export const MainSearchbar = () => {
+export const MainSearchbar = ({size} : MainSearchbarProps) => {
 
     const [search, setSearch] = useState(' ')
 
     return (
-        <div className="hero-container-searchbar">
+        <div className={clsx("hero-container-searchbar", {'hero-container-searchbar--adapted-to-nav': size})} >
             <Searchbar setSearch={setSearch}/>
             <div className="hero-container-searchbar__button-container">
-                <Button size={'small'} title='Search' search={search}/>
+                <Button type='submit' size={'small'} title='Search' search={search}/>
             </div>
         </div>
     )

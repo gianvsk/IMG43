@@ -5,6 +5,7 @@ import clsx from 'clsx';
 import './style.css'
 import { useModalSignup } from '../../../contexts/signUp.context';
 import { CompletedForm } from '../../form/completedForm';
+import { useState } from 'react';
 
 type Props = {
     open: boolean
@@ -13,6 +14,8 @@ type Props = {
 export const Modal = ({ open }: Props) => {
 
     const {setVisible} = useModalSignup()
+
+    const [activeUser, setActiveUser] = useState('user')
 
     const closeModal = () => {
         setVisible(false)
@@ -23,8 +26,8 @@ export const Modal = ({ open }: Props) => {
             <div className="modal-content" onClick={e => e.stopPropagation()}>
                 <Icon1/>
                 <Title/>
-                <Users/>
-                <CompletedForm closeModal={closeModal}/>
+                <Users activeUser={activeUser} setActiveUser={setActiveUser}/>
+                <CompletedForm activeUser={activeUser}closeModal={closeModal}/>
             </div>
         </div>
     )

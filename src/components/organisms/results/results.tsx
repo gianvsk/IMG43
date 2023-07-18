@@ -1,4 +1,4 @@
-import { Card } from '../../atoms/Card/Card'
+import { Card } from '../../molecoles/Card/Card'
 import './style.css'
 
 export const Results = () => {

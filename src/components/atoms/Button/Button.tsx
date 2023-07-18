@@ -4,13 +4,14 @@ import { useModalSignup } from '../../../contexts/signUp.context';
 import clsx from 'clsx';
 
 type ButtonType = {
+    type: string
     size: 'small' | 'medium' | 'large';
     title: string,
     search?: string
     click?: () => void
 }
 
-export const Button = ({ size, title, search, click }: ButtonType) => {
+export const Button = ({ type, size, title, search, click }: ButtonType) => {
 
     const { visible, setVisible } = useModalSignup()
 
@@ -41,7 +42,7 @@ export const Button = ({ size, title, search, click }: ButtonType) => {
                 </button>
             }
             {click &&
-                <button className={clsx({ 'navbar-button': size === 'medium' },
+                <button type='submit' className={clsx({ 'navbar-button': size === 'medium' },
                     { 'searchbar-button': size === 'small' },
                     { 'signup-button': size === 'large' })}
                     onClick={click}

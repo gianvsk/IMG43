@@ -1,5 +1,5 @@
 .account-image {
-  background-image: url("../../../../public/images/pictures/Ellipse.png");
+  background-image: url("/public/images/pictures/Ellipse.png");
   background-size: auto;
   background-position: center center;
   border-radius: 34px;

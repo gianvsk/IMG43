@@ -7,7 +7,7 @@ export const SignUp = () => {
     return (
         <div className="navbar-signUp-container">
             <h5 className="navbar-signUp-container__signUp">Log in</h5>
-            <Button size='medium' title='Sign up'/>
+            <Button type='submit' size='medium' title='Sign up'/>
         </div>
     )
 }

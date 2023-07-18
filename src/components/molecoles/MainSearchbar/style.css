@@ -25,4 +25,8 @@
   display: flex;
   align-items: center;
   border-left: 1px solid #DDE1ED;
+}
+
+.hero-container-searchbar--adapted-to-nav {
+  width: auto;
 }/*# sourceMappingURL=style.css.map */
