@@ -1,0 +1,27 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
+}
+.categories-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.text-span {
+  font-family: RobotoRegular;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 22px;
+  background: linear-gradient(315deg, #0081FA 0%, #009FF2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 0 20px;
+}/*# sourceMappingURL=style.css.map */

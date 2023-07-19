@@ -6,25 +6,108 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
-.hero-container-title {
-  display: flex;
-  flex-direction: column;
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto/Roboto-Bold.woff");
 }
-.hero-container-title__first-title {
-  color: #1D1D1D;
+.heading-3 {
   text-align: center;
   font-family: RobotoMedium;
-  font-size: 40px;
-  font-style: normal;
-  line-height: normal;
+  z-index: 1;
+  margin: 5px 8px 6px 16px;
+}
+
+.heading-3--no-margin {
+  text-align: center;
+  font-family: RobotoMedium;
+  z-index: 1;
   margin: 0;
 }
-.hero-container-title__second-title {
-  color: #6D707A;
-  text-align: center;
-  font-family: RobotoRegular;
-  font-size: 24px;
+
+.heading-4 {
+  font-family: RobotoMedium;
   font-style: normal;
-  line-height: 38px;
+  line-height: normal;
+}
+
+.heading-5 {
+  color: #1D1D1D;
+  font-family: RobotoRegular;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
   margin: 0;
+}
+
+.paragraph-text {
+  color: #1D1D1D;
+  font-family: RobotoRegular;
+  font-style: normal;
+  line-height: normal;
+  opacity: 0.6000000238;
+  margin: 8px 0 0 0;
+  text-align: left;
+}
+
+.span {
+  font-family: RobotoRegular;
+  font-style: normal;
+  line-height: 22px;
+  background: linear-gradient(315deg, #0081FA 0%, #009FF2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.span-tag {
+  text-align: center;
+  font-family: RobotoBold;
+  font-style: normal;
+  line-height: normal;
+}
+
+.f-size-15 {
+  font-size: 15px;
+}
+
+.f-size-16 {
+  font-size: 16px;
+}
+
+.f-size-17 {
+  font-size: 17px;
+}
+
+.f-size-18 {
+  font-size: 18px;
+}
+
+.f-size-20 {
+  font-size: 20px;
+}
+
+.f-size-26 {
+  font-size: 26px;
+}
+
+.color-white {
+  color: #FFF;
+}
+
+.color-main {
+  color: #1D1D1D;
+}
+
+.color-black {
+  color: #000;
+}
+
+.color-main-opacity60 {
+  color: #1D1D1D;
+  opacity: 0.6000000238;
+}
+
+.color-blue-opacity80 {
+  color: #0081FA;
+  opacity: 0.8000000119;
 }/*# sourceMappingURL=style.css.map */

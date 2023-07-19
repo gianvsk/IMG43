@@ -1,0 +1,19 @@
+@font-face {
+  font-family: RobotoRegular;
+  src: url("../fonts/Roboto/Roboto-Regular.woff");
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url("../fonts/Roboto/Roboto-Medium.woff");
+}
+.hero-container-title {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 576px) {
+  .hero-container-title {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

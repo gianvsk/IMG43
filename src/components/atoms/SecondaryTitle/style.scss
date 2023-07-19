@@ -1,0 +1,23 @@
+.secondary-title {
+    color: #6D707A;
+    text-align: center;
+    font-family: RobotoRegular;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 38px;
+    margin: 0;
+  }
+
+@media screen and (min-device-width: 0px) and (max-device-width: 576px) {
+
+    .secondary-title {
+        color: #6D707A;
+        text-align: center;
+        font-family: RobotoRegular;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 38px;
+        margin: 0;
+      }
+
+ }

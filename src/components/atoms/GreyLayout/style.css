@@ -18,4 +18,10 @@
 
 .grey-layout-invisible {
   display: none;
+}
+
+@media screen and (min-device-width: 768px) {
+  .grey-layout {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

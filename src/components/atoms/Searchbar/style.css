@@ -28,11 +28,6 @@
   color: #000;
 }
 
-.hero-container-searchbar-input--large {
-  width: 635px;
-  height: 40px;
-}
-
 @media screen and (min-device-width: 0) and (max-device-width: 576px) {
   .hero-container-searchbar-input .hero-container-searchbar-input__input--medium {
     display: none;

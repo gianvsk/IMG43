@@ -1,26 +1,103 @@
 @import '../../../style/style.scss';
 
-.hero-container-title {
-    display: flex;
-    flex-direction: column;
+.heading-3 {
+    text-align: center;
+    font-family: RobotoMedium;
+    z-index: 1;
+    margin:5px 8px 6px 16px
+}
 
-    &__first-title {
-        color: map-get(map-get($palette, text), main);
-        text-align: center;
-        font-family: RobotoMedium;
-        font-size: 40px;
-        font-style: normal;
-        line-height: normal;
-        margin:0;
-    }
+.heading-3--no-margin {
+    text-align: center;
+    font-family: RobotoMedium;
+    z-index: 1;
+    margin:0;
+}
 
-    &__second-title {
-        color: map-get(map-get($palette, text), secondary);
-        text-align: center;
-        font-family: RobotoRegular;
-        font-size: 24px;
-        font-style: normal;
-        line-height: 38px;
-        margin:0;
-    }
+.heading-4 {
+    font-family: RobotoMedium;
+    font-style: normal;
+    line-height: normal;
+}
+
+.heading-5 {
+    color: map-get(map-get($palette, text), main);
+    font-family: RobotoRegular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0;
+}
+
+.paragraph-text {
+    color: map-get(map-get($palette, text), main);
+    font-family: RobotoRegular;
+    font-style: normal;
+    line-height: normal;
+    opacity: 0.6000000238418579;
+    margin: 8px 0 0 0;
+    text-align: left;
+}
+
+.span {
+    font-family: RobotoRegular;
+    font-style: normal;
+    line-height: 22px;
+    background: linear-gradient(315deg, #0081FA 0%, #009FF2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.span-tag {
+    text-align: center;
+    font-family: RobotoBold;
+    font-style: normal;
+    line-height: normal;
+}
+
+.f-size-15 {
+    font-size:15px;
+}
+
+.f-size-16 {
+    font-size: 16px;
+}
+
+.f-size-17 {
+    font-size: 17px;
+}
+
+.f-size-18 {
+    font-size: 18px;
+}
+
+.f-size-20 {
+    font-size: 20px;
+}
+
+.f-size-26 {
+    font-size: 26px;
+}
+
+.color-white {
+    color: #FFF;
+}
+
+.color-main {
+    color: map-get(map-get($palette, text), main);
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-main-opacity60 {
+    color: map-get(map-get($palette, text), main);
+    opacity: 0.6000000238418579;
+}
+
+.color-blue-opacity80 {
+    color:#0081FA;
+    opacity: 0.800000011920929;
 }

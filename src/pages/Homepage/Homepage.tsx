@@ -8,7 +8,7 @@ import { GreyLayout } from "../../components/atoms/GreyLayout/GreyLayout"
 export const Homepage = () => {
 
     return (
-        <div className="container-components">
+        <div className="homepage">
             <Hero/>
             <Results/>
             <GreyLayout/>

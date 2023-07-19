@@ -5,6 +5,7 @@ import { Links1 } from "../../atoms/Links1/Links1";
 import { MainSearchbar } from "../MainSearchbar/MainSearchbar";
 import { useLayout } from "../../../contexts/burgerMenuContext";
 import { ImageLinks } from "../ImageLinks/ImageLinks";
+import { useLocationPath } from "../../../contexts/locationContext";
 
 export const HeaderWrapper = () => {
 
@@ -15,11 +16,14 @@ export const HeaderWrapper = () => {
     const isPushed = () => {
         setPushed(pushed === true ? false : true)
     }
+ 
+    const {locationPath} = useLocationPath()
 
     return (
         <>
             <div className='navbar-container'>
                 <ImageLinks />
+                {locationPath === '/explore' && <MainSearchbar pathChanged={true} /> }
                 <SignUp />
             </div>
             <div className="container-login-menu">
@@ -35,12 +39,12 @@ export const HeaderWrapper = () => {
 
             {pushed &&
                 <div className="burger-body">
-                    <MainSearchbar />
+                    <MainSearchbar/>
                     <div className="burger-body__links-container">
                         <Links1 />
                     </div>
                 </div>
             }
-        </>
+            </>
     )
 }

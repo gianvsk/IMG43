@@ -26,4 +26,13 @@
   border-radius: 10px;
   background: #FFF;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-device-width: 0) and (max-device-width: 768px) {
+  .navbar-button-modal--open {
+    display: none;
+  }
+  .modal-content {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

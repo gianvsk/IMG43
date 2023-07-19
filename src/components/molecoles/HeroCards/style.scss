@@ -1,0 +1,50 @@
+.card-single-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 146px;
+    background-size: 100% 100%;
+}
+
+.background-single-image {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.background-single-image-container {
+    width:100%;
+
+    &__card1 {
+        background-image: url('/images/pictures/qingbao-meng-330658-unsplash.png');
+    }
+
+    &__card3 {
+        background-image: url('/images/pictures/qingbao-meng-330658-unsplash(2).png');
+    }
+
+}
+
+.background-single-image-container-2 {
+    width:100%;
+    margin:0 30px 0 30px;
+
+    &__card2 {
+        background-image: url('/images/pictures/qingbao-meng-330658-unsplash(1).png');
+    }
+
+}
+
+.background-image-card-layout {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 6px;
+    opacity: 0.6000000238418579;
+    background: linear-gradient(180deg, rgba(29, 29, 29, 0.40) 0%, rgba(29, 29, 29, 0.60) 47.51%, rgba(29, 29, 29, 0.40) 100%);
+}

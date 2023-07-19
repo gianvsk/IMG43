@@ -1,0 +1,26 @@
+
+.images-wrapper {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 4px;
+    margin: 0 0 20px 0;
+
+    &__images--main {
+        width:100%;
+        height:100%;
+        grid-area: 1 / 1 / span 2 / 2;
+    }
+
+    &__images--secondary {
+        width:100%;
+        height:100%;
+        grid-area: 1 / 2 / 2 / 3
+    }
+
+    &__images--third{
+        width:100%;
+        height:100%;
+        grid-area: 2 / 2 / 3 / 3;
+    }
+}

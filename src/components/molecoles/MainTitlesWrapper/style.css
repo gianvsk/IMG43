@@ -13,6 +13,11 @@
   align-items: center;
 }
 
+.hero-container-start {
+  width: 100%;
+  align-items: flex-start;
+}
+
 .hero-container-title {
   display: flex;
   flex-direction: column;
