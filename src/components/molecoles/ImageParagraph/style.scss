@@ -4,3 +4,18 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+
+@media screen and (min-width:0) {
+    
+    .image-paragraph-container {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    
+    .image-paragraph-container {
+        margin-bottom: 0;
+    }
+
+}

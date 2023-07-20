@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Modal } from '../components/organisms/modal/modal'
+import { Modal } from '../components/organisms/Modal/Modal'
 
 type Context = {
   setVisible: (visible: boolean) => void

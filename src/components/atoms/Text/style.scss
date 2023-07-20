@@ -4,14 +4,14 @@
     text-align: center;
     font-family: RobotoMedium;
     z-index: 1;
-    margin:5px 8px 6px 16px
+    margin: 5px 8px 6px 16px
 }
 
 .heading-3--no-margin {
     text-align: center;
     font-family: RobotoMedium;
     z-index: 1;
-    margin:0;
+    margin: 0;
 }
 
 .heading-4 {
@@ -39,6 +39,18 @@
     text-align: left;
 }
 
+.a-text {
+    text-align: center;
+    font-family: RobotoMedium;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+
+    &:hover {
+        color: map-get(map-get($palette, text), main);
+    }
+}
+
 .span {
     font-family: RobotoRegular;
     font-style: normal;
@@ -57,7 +69,7 @@
 }
 
 .f-size-15 {
-    font-size:15px;
+    font-size: 15px;
 }
 
 .f-size-16 {
@@ -98,6 +110,6 @@
 }
 
 .color-blue-opacity80 {
-    color:#0081FA;
+    color: #0081FA;
     opacity: 0.800000011920929;
 }

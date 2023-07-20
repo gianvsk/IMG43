@@ -8,21 +8,21 @@ export const HeroCards = () => {
         <>
             <div className='background-single-image'>
                 <div className='background-single-image-container'>
-                    <a className="card-single-image background-single-image-container__card1">
+                    <a className="card-single-image background-single-image-container__card1 image-position">
                         <Text tag='h3' size='f-size-20' color='color-white'>Most Viewed</Text>
                         <div className='background-image-card-layout' />
                     </a>
                     <Paragraph text='Discover the photographs that have attracted the most attention' />
                 </div>
                 <div className='background-single-image-container'>
-                    <a className="card-single-image background-single-image-container__card2">
+                    <a className="card-single-image background-single-image-container__card2 image-position">
                         <Text tag='h3' size='f-size-20' color='color-white'>Most Viewed</Text>
                         <div className='background-image-card-layout' />
                     </a>
                     <Paragraph text='Discover the most downloaded photos ever by our users' />
                 </div>
                 <div className='background-single-image-container'>
-                    <a className="card-single-image background-single-image-container__card3">
+                    <a className="card-single-image background-single-image-container__card3 image-position">
                         <Text tag='h3' size='f-size-20' color='color-white'>Most Viewed</Text>
                         <div className='background-image-card-layout' />
                     </a>

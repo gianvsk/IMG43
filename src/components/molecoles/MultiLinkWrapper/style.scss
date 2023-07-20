@@ -2,7 +2,8 @@
 
 .footer-container {
     width:100%;
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -40,12 +41,15 @@
     }
 }
 
-@media screen and (min-device-width:0) and (max-device-width: 576px) {
+@media screen and (min-width:0) and (max-width: 576px) {
+
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
 
     .footer-container-links {
         display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         justify-content: flex-start;
         align-items: center;
         padding: 0;
@@ -53,36 +57,31 @@
 
         &__link--start {
             grid-area: 1/ 1 /1 /1;
-            text-align: left;
-            padding: 6px 0;
-            margin: 0;
         }
-
+    
         &__link--center {
             grid-area: auto/1/auto/2;
-            text-align: left;
-            padding: 6px 0;
-            margin: 0;
         }
-
+    
         &__link--side {
             grid-area: 1/2/2/3;
-            text-align: left;
-            padding: 6px 0;
             margin: 0;
         }
-
+    
         &__link--end {
-            grid-area: 2/3/3/2;
-            text-align: left;
-            padding: 6px 0;
-            margin: 0;
+            grid-area: 2/3/3/2;  
         }
+    
+    }
 
+    .link {
+        text-align: left;
+        padding: 6px 0;
+        margin: 0;
     }
 }
 
-@media screen and (min-device-width:0) and (max-device-width: 992px) {
+@media screen and (min-width:576px) {
 
     .footer-container {
         flex-direction: column;
@@ -95,36 +94,30 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         justify-content: flex-start;
-        align-items: center;
-        padding: 30px 0;
+        align-items: flex-start;
 
         &__link--start {
             grid-area: 1/ 1 /1 /1;
-            text-align: left;
-            padding: 6px 0;
-            margin: 0;
         }
 
         &__link--center {
             grid-area: auto/1/auto/2;
-            text-align: left;
-            padding: 6px 0;
-            margin: 0;
         }
 
         &__link--side {
             grid-area: 1/2/2/3;
-            text-align: left;
-            padding: 6px 0;
             margin: 0;
         }
 
         &__link--end {
-            grid-area: 2/3/3/2;
-            text-align: left;
-            padding: 6px 0;
-            margin: 0;
+            grid-area: 2/3/3/2;  
         }
 
+    }
+
+    .link {
+        text-align: center;
+        padding: 6px 0;
+        margin: 0;
     }
 }

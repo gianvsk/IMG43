@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #FFF;
-    padding: 18px 60px 5px 60px;
+    padding: 24px 24px; 
     z-index: 2;
 }
 
@@ -15,10 +15,10 @@
     padding: 10px 60px;
 }
 
-@media screen and (min-device-width: 0) and (max-device-width: 576px) {
+@media screen and (min-width: 576px) {
 
     .navbar {
-        padding: 24px 24px;    
-    }
-    
+        padding: 18px 60px 5px 60px;
+    }   
+
 }

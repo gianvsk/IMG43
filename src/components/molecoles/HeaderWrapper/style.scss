@@ -30,10 +30,8 @@
     color: map-get(map-get($palette, text), main);
     text-align: center;
     font-family: RobotoMedium;
-    font-size: 15px;
     font-style: normal;
     line-height: normal;
-    margin:0px 15px;
     }
 }
 
@@ -45,7 +43,7 @@
     margin:12px 0;
 }
 
-@media screen and (min-device-width:0) and (max-device-width: 768px) {
+@media screen and (min-width:0) {
 
     .relative {
         position:relative;
@@ -140,6 +138,24 @@
     .separator-line {
         width:100%;
     }
+}
+
+@media screen and (min-width: 769px) {
+
+    .nav-links-container {
+        margin:0;
+    
+    
+        &__link {
+        font-size: 15px;
+        margin:0px 15px;
+        }
+    }
+
+    .container-login-menu {
+        display: none;
+    }
+    
 }
 
 @keyframes scroll-navbar {

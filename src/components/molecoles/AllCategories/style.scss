@@ -1,11 +1,10 @@
 .all-categories {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
     gap:60px 30px;
     margin: 30px 0 140px 0;
 }
 
-@media screen and (min-device-width: 0 ) and (max-device-width:768px) {
+@media screen and (min-width: 0 ) {
 
 
     .all-categories {
@@ -14,11 +13,19 @@
     
 }
 
-@media screen and (min-device-width: 769px ) and (max-device-width:1200px) {
+@media screen and (min-width: 769px ) {
 
 
     .all-categories {
         grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media screen and (min-width: 1201px) {
+
+    .all-categories {
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
 }

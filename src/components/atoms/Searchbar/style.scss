@@ -2,7 +2,6 @@
 
 .hero-container-searchbar-input {
     width: 100%;
-    display:flex;
 
     .hero-container-searchbar-input__input--medium {
         width: 100%;
@@ -12,7 +11,6 @@
         font-style: normal;
         line-height: normal;
         background-color: map-get($palette, white);
-        border:transparent;
         border: 0;
         outline: none;
 
@@ -22,7 +20,7 @@
     }
 }
 
-@media screen and (min-device-width:0) and (max-device-width: 576px) {
+@media screen and (min-width:0) {
 
     .hero-container-searchbar-input {
 
@@ -49,12 +47,26 @@
 
 }
 
-@media screen and (min-device-width: 577px) {
+@media screen and (min-width: 577px) {
 
     .hero-container-searchbar-input {
 
         .hero-container-searchbar-input__input--small {
             display:none;
+        }
+    }
+
+    .hero-container-searchbar-input {
+    
+        .hero-container-searchbar-input__input--medium {
+            display:block;
+            width: 100%;
+            font-size: 15px;
+            border: 0;
+    
+            &::placeholder {
+                color: map-get(map-get($palette, input), placeholder);
+            }
         }
     }
 

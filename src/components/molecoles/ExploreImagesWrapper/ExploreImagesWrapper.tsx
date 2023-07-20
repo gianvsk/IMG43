@@ -6,9 +6,9 @@ export const ExploreImagesWrapper = () => {
 
     return (
         <div className="images-wrapper">
-            <img className='images-wrapper__images--main'src={convertNumberToSrcExplore()}></img>
-            <img className='images-wrapper__images--secondary' src={convertNumberToSrcExplore()}></img>
-            <img className='images-wrapper__images--third' src={convertNumberToSrcExplore()}></img>
+            <img className='images-wrapper__images--main image-position'src={convertNumberToSrcExplore()}></img>
+            <img className='images-wrapper__images--secondary image-position' src={convertNumberToSrcExplore()}></img>
+            <img className='images-wrapper__images--third image-position' src={convertNumberToSrcExplore()}></img>
         </div>
     )
 

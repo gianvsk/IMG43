@@ -7,9 +7,10 @@ type TextProps = {
     color: 'color-main' | 'color-white' | 'color-blue' | 'color-black' | 'color-main-opacity60' | 'color-blue-opacity80'
     modifier?: 'span-tag' | 'no-margin'
     children: React.ReactNode
+    font?: 'RobotoRegular' | 'RobotoMedium'
 }
 
-export const Text = ({tag, size, color, modifier, children} : TextProps) => {
+export const Text = ({tag, size, color, modifier, font, children} : TextProps) => {
 
     const Tag = tag
 
@@ -30,15 +31,16 @@ export const Text = ({tag, size, color, modifier, children} : TextProps) => {
             case 'span':
                 return 'span'
             case 'a':
-                break
+                if(font === 'RobotoRegular') return 'a-text' + ' ' +'RobotoRegular' 
+                else return 'a-text' + ' ' + 'RobotoMedium'  
             default:
                 return ''
         } }
-    , [tag, modifier] ) 
+    , [tag, modifier, font] ) 
 
 
     return (
-        <Tag className={textSize! + ' ' + size! + ' ' + color + ' ' + modifier!}>
+        <Tag className={textSize + ' ' + size! + ' ' + color + ' ' + modifier!}>
             {children}
         </Tag>
     )

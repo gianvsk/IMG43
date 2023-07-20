@@ -10,13 +10,13 @@
     background-color: rgba(0, 0, 0, 0.4);
 
     &--open {
-        display: flex;
+        display: none;
     }
 }
 
 .modal-content {
     width:540px;
-    display:flex;
+    display:none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -29,17 +29,16 @@
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (min-device-width: 0) and (max-device-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .navbar-button-modal {
 
         &--open {
-            display:none;
+            display:flex;
         }
     }
 
     .modal-content {
-        display:none;
+        display:flex;
     }
-    
 }

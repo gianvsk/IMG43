@@ -6,7 +6,7 @@ export const ExploreTitles = () => {
 
     return (
         <div className="categories-wrapper">
-            <Text tag='h3' size='f-size-26' color='color-main' >
+            <Text tag='h3' size='f-size-26' color='color-main' modifier="no-margin" >
                 Categories
                 <a className="text-span">View all</a>
             </Text>
