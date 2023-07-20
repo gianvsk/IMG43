@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 import { convertNumberToSrcExplore } from '../../../utils/imageObtainer'
 
 export const ExploreImagesWrapper = () => {

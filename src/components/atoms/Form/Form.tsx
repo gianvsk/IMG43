@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { UserSignUp } from '../../../model/UserSignUp';
 import '../../../utils/validators'
-import './style.css';
+import './style.scss';
 import '../../../style/style.css';
 import { validateEmail, validateName, validateNumber, validatePassword } from '../../../utils/validators';
 

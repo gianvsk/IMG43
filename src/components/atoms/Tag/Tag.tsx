@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 import { Text } from '../Text/Text'
 
 type TagProps = {

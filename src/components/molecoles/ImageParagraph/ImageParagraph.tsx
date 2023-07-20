@@ -1,6 +1,6 @@
 import { Paragraph } from "../../atoms/Paragraph/Paragraph"
 import { Image } from "../../atoms/Image/Image"
-import './style.css'
+import './style.scss'
 
 
 export const ImageParagraph = () => {

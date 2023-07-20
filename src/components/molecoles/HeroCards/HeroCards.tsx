@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 import { Text } from '../../atoms/Text/Text'
 import { Paragraph } from '../../atoms/Paragraph/Paragraph'
 

@@ -1,8 +1,8 @@
 import { GreyLayout } from '../../components/atoms/GreyLayout/GreyLayout'
 import { Tags } from '../../components/molecoles/Tags/Tags'
 import { Categories } from '../../components/organisms/Categories/Categories'
-import { Hero } from '../../components/organisms/hero/hero'
-import './style.css'
+import { Hero } from '../../components/organisms/Hero/Hero'
+import './style.scss'
 
 export const Explore = () => {
     return (

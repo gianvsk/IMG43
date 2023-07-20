@@ -1,6 +1,6 @@
 import { Icon1 } from "../../atoms/Icon1/Icon1"
 import { MainSearchbar } from "../MainSearchbar/MainSearchbar"
-import './style.css'
+import './style.scss'
 import '../../../style/style.css';
 import { useLocationPath } from "../../../contexts/locationContext";
 import { MainTitle } from "../../atoms/MainTitle/MainTitle";

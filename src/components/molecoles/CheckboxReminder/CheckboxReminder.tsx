@@ -1,6 +1,6 @@
 import { CheckboxRememberMe } from "../../atoms/CheckboxRememberMe/CheckboxReminder"
 import { ForgottenPassword } from "../../atoms/ForgottenPassword/ForgottenPassword"
-import './style.css'
+import './style.scss'
 
 export const CheckboxReminder = () => {
 

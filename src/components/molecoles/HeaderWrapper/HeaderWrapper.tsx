@@ -1,7 +1,7 @@
 import { SignUp } from "../SignUp/SignUp";
-import './style.css'
+import './style.scss'
 import '../../../style/style.css';
-import { Links1 } from "../../atoms/Links1/Links1";
+import { Links } from "../../atoms/Links/Links";
 import { MainSearchbar } from "../MainSearchbar/MainSearchbar";
 import { useLayout } from "../../../contexts/burgerMenuContext";
 import { ImageLinks } from "../ImageLinks/ImageLinks";
@@ -41,7 +41,7 @@ export const HeaderWrapper = () => {
                 <div className="burger-body">
                     <MainSearchbar/>
                     <div className="burger-body__links-container">
-                        <Links1 />
+                        <Links />
                     </div>
                 </div>
             }

@@ -1,5 +1,5 @@
 import { Text } from "../../atoms/Text/Text"
-import './style.css'
+import './style.scss'
 import '../../../utils/imageObtainer'
 
 export const ExploreTitles = () => {

@@ -1,6 +1,6 @@
 import { ExploreImagesWrapper } from "../ExploreImagesWrapper/ExploreImagesWrapper"
 import { Text } from "../../atoms/Text/Text"
-import './style.css'
+import './style.scss'
 
 
 export const Landscape = () => {

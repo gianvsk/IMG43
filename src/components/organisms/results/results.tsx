@@ -1,6 +1,6 @@
 import { useLocationPath } from '../../../contexts/locationContext'
 import { Card } from '../../molecoles/Card/Card'
-import './style.css'
+import './style.scss'
 
 export const Results = () => {
 
@@ -12,9 +12,6 @@ export const Results = () => {
             {locationPath === '/' && 
             Array.from(Array(12).keys()).map((el,index) => <Card key={index}/>)
             }
-{/*             {locationPath === '/explore' && 
-                
-            } */}
         </div>
         
     )

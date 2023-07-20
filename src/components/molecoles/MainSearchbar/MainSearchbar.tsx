@@ -2,7 +2,7 @@
 import { useState } from "react"
 import { Button } from "../../atoms/Button/Button"
 import { Searchbar } from "../../atoms/Searchbar/searchbar"
-import './style.css'
+import './style.scss'
 import '../../../style/style.css';
 import clsx from "clsx";
 

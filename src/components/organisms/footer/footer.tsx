@@ -1,5 +1,5 @@
 import { MultiLinkWrapper } from "../../molecoles/MultiLinkWrapper/MultiLinkWrapper"
-import './style.css'
+import './style.scss'
 import '../../../style/style.css';
 
 export const Footer = () => {

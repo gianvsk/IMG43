@@ -1,7 +1,7 @@
 
 import { Icon } from '../../atoms/Icon/Icon'
 import {ImageParagraph} from '../ImageParagraph/ImageParagraph'
-import './style.css'
+import './style.scss'
 import '../../../style/style.css';
 
 export const MultiLinkWrapper = () => {

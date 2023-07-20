@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 import { useEffect, useState } from 'react'
 import { useLayout } from '../../../contexts/burgerMenuContext'
 

@@ -1,6 +1,6 @@
 import '../../../style/style.css';
 import { AccountImage } from '../../atoms/AccountImage/AccountImage';
-import './style.css'
+import './style.scss'
 
 export const Card = () => {
 

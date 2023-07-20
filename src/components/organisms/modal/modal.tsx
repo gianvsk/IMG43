@@ -2,7 +2,7 @@ import { Icon1 } from '../../atoms/Icon1/Icon1';
 import { Title } from '../../atoms/Title/Title';
 import { Users } from '../../atoms/Users/Users';
 import clsx from 'clsx';
-import './style.css'
+import './style.scss'
 import { useModalSignup } from '../../../contexts/signUp.context';
 import { CompletedForm } from '../../form/completedForm';
 import { useState } from 'react';

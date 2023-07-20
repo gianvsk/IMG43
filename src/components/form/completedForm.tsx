@@ -3,7 +3,7 @@ import { LoginText } from "../atoms/LoginText/LoginText"
 import { CheckboxReminder } from "../molecoles/CheckboxReminder/CheckboxReminder"
 import { useState } from 'react';
 import { UserSignUp } from "../../model/UserSignUp";
-import './style.css';
+import './style.scss';
 import '../../style/style.css';
 import { validateEmail, validateName, validateNumber, validatePassword } from "../../utils/validators";
 

@@ -1,5 +1,5 @@
 import { Button } from '../../atoms/Button/Button'
-import './style.css'
+import './style.scss'
 import '../../../style/style.css';
 
 export const SignUp = () => {

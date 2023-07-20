@@ -1,6 +1,6 @@
 import { MainTitlesWrapper } from '../../molecoles/MainTitlesWrapper/MainTitlesWrapper'
-import './style.css'
-import '../../../style/style.css';
+import './style.scss'
+import '../../../style/style.scss';
 import { useLocationPath } from '../../../contexts/locationContext';
 import clsx from 'clsx';
 

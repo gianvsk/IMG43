@@ -1,15 +1,18 @@
+import './style.scss'
 import '../../../style/style.css';
-import './style.css'
+import clsx from 'clsx';
 
-export const Links = () => {
+type Links1Props = {
+  size?: 'sm-hidden'
+}
 
-    return (
-        <ul className='footer-container-links'>
-            <a className='footer-container-links__link--start'>Explore</a>
-            <a className='footer-container-links__link--center'>Ranking</a>
-            <a className='footer-container-links__link--center'>About</a>
-            <a className='footer-container-links__link--center footer-container-links__link--side'>Privacy Policy</a>
-            <a className='footer-container-links__link--end'>Terms and Conditions</a>
-        </ul>
-    )
+export const Links = ({size} : Links1Props) => {
+
+  return (
+      <ul className={clsx('nav-links-container', {'nav-links-container--hidden' : size})}>
+        <a className='nav-links-container__link'>Explore</a>
+        <div className='separator-line' />
+        <a className='nav-links-container__link'>Ranking</a>
+      </ul>
+  )
 }

@@ -2,16 +2,17 @@
 
 .hero-container-searchbar-input {
     width: 100%;
+    display:flex;
 
     .hero-container-searchbar-input__input--medium {
         width: 100%;
-        height:40px;
         color: map-get($palette,black);
         font-family: RobotoRegular;
         font-size: 15px;
         font-style: normal;
         line-height: normal;
         background-color: map-get($palette, white);
+        border:transparent;
         border: 0;
         outline: none;
 

@@ -4,7 +4,7 @@ import { FoodDrink } from "../FoodDrink/FoodDrink"
 import { Landscape } from "../Landscape/Landscape"
 import { People } from "../People/People"
 import { Sport } from "../Sport/Sport"
-import './style.css'
+import './style.scss'
 
 
 export const AllCategories = () => {

@@ -1,6 +1,6 @@
-import { Hero } from "../../components/organisms/hero/hero"
+import { Hero } from "../../components/organisms/Hero/Hero"
 import { Results } from "../../components/organisms/results/results"
-import './style.css'
+import './style.scss'
 import { GreyLayout } from "../../components/atoms/GreyLayout/GreyLayout"
 
 

@@ -1,5 +1,5 @@
 import React, { useMemo } from "react"
-import './style.css'
+import './style.scss'
 
 type TextProps = {
     tag: 'h2' | 'h3' | 'h4' | 'h5' | 'p' | 'a' | 'span' 
