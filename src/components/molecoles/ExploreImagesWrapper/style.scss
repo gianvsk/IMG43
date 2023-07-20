@@ -10,17 +10,20 @@
         width:100%;
         height:100%;
         grid-area: 1 / 1 / span 2 / 2;
+        border-radius: 6px 0 0 6px;
     }
 
     &__images--secondary {
         width:100%;
         height:100%;
-        grid-area: 1 / 2 / 2 / 3
+        grid-area: 1 / 2 / 2 / 3;
+        border-radius: 0 6px 0 0;
     }
 
     &__images--third{
         width:100%;
         height:100%;
         grid-area: 2 / 2 / 3 / 3;
+        border-radius: 0 0 6px 0;
     }
 }

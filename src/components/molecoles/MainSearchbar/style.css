@@ -6,6 +6,10 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto/Roboto-Bold.woff");
+}
 .hero-container-searchbar {
   display: flex;
   flex-direction: row;

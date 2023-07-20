@@ -6,6 +6,10 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto/Roboto-Bold.woff");
+}
 .navbar-button-modal-title {
   color: #1D1D1D;
   text-align: center;

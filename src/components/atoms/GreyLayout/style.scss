@@ -8,6 +8,7 @@
     bottom: 0;
     opacity: 0.4000000059604645;
     background: map-get($palette, black);
+    z-index:1;
 }
 
 .grey-layout-invisible {

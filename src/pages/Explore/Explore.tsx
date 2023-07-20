@@ -7,9 +7,11 @@ import './style.css'
 export const Explore = () => {
     return (
         <div className="explore">
+            <div className='explore-container'>
             <Hero/>
             <Categories/>
             <Tags/>
+            </div>
             <GreyLayout/>
         </div>
     )

@@ -6,13 +6,17 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto/Roboto-Bold.woff");
+}
 .footer {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 0 60px 34px 60px;
+  padding: 60px;
   flex-wrap: nowrap;
   background-color: #FFF;
 }/*# sourceMappingURL=style.css.map */

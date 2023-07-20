@@ -14,8 +14,8 @@ export const HeroCards = () => {
                     </a>
                     <Paragraph text='Discover the photographs that have attracted the most attention' />
                 </div>
-                <div className='background-single-image-container-2'>
-                    <a className="card-single-image background-single-image-container-2__card2">
+                <div className='background-single-image-container'>
+                    <a className="card-single-image background-single-image-container__card2">
                         <Text tag='h3' size='f-size-20' color='color-white'>Most Viewed</Text>
                         <div className='background-image-card-layout' />
                     </a>

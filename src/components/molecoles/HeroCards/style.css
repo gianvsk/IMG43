@@ -9,9 +9,11 @@
 
 .background-single-image {
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 60px 0;
 }
 
@@ -21,16 +23,11 @@
 .background-single-image-container__card1 {
   background-image: url("/images/pictures/qingbao-meng-330658-unsplash.png");
 }
+.background-single-image-container__card2 {
+  background-image: url("/images/pictures/qingbao-meng-330658-unsplash(1).png");
+}
 .background-single-image-container__card3 {
   background-image: url("/images/pictures/qingbao-meng-330658-unsplash(2).png");
-}
-
-.background-single-image-container-2 {
-  width: 100%;
-  margin: 0 30px 0 30px;
-}
-.background-single-image-container-2__card2 {
-  background-image: url("/images/pictures/qingbao-meng-330658-unsplash(1).png");
 }
 
 .background-image-card-layout {
@@ -42,4 +39,22 @@
   border-radius: 6px;
   opacity: 0.6000000238;
   background: linear-gradient(180deg, rgba(29, 29, 29, 0.4) 0%, rgba(29, 29, 29, 0.6) 47.51%, rgba(29, 29, 29, 0.4) 100%);
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width: 992px) {
+  .background-single-image {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .background-single-image-container {
+    margin: 10px 0 30px 0;
+  }
+}
+@media screen and (min-device-width: 992px) and (max-device-width: 1400px) {
+  .background-single-image {
+    grid-template-columns: 1fr 1fr;
+  }
+  .background-single-image-container {
+    margin: 10px 0 30px 0;
+  }
 }/*# sourceMappingURL=style.css.map */

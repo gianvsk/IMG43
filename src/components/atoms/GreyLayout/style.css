@@ -6,6 +6,10 @@
   font-family: RobotoMedium;
   src: url("../fonts/Roboto/Roboto-Medium.woff");
 }
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto/Roboto-Bold.woff");
+}
 .grey-layout {
   position: absolute;
   top: 0;
@@ -14,6 +18,7 @@
   bottom: 0;
   opacity: 0.400000006;
   background: #000;
+  z-index: 1;
 }
 
 .grey-layout-invisible {
