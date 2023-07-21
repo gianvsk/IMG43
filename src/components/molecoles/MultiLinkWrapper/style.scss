@@ -2,31 +2,18 @@
 
 .footer-container {
     width:100%;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-    align-items: flex-start;
+    display:flex;
+    flex-direction: column;
 }
 
 .footer-container-links {
     display:flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding:0 0;
     margin:0;
-
-    &__link--start {
-        margin: 0 15px 0 0;
-    }
-
-    &__link--center {
-        margin: 0 15px;
-    }
-
-    &__link--end {
-        margin: 0 0 0 15px;
-
-    }
+    gap: 15px;
 }
 
 .link {
@@ -41,78 +28,36 @@
     }
 }
 
-@media screen and (min-width:0) and (max-width: 576px) {
+@media screen and (min-width:0) {
 
     .footer-container {
-        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
     .footer-container-links {
-        display:grid;
-        grid-template-columns: 1fr;
-        justify-content: flex-start;
-        align-items: center;
+        align-items: flex-start;
         padding: 0;
         margin: 0;
-
-        &__link--start {
-            grid-area: 1/ 1 /1 /1;
-        }
-    
-        &__link--center {
-            grid-area: auto/1/auto/2;
-        }
-    
-        &__link--side {
-            grid-area: 1/2/2/3;
-            margin: 0;
-        }
-    
-        &__link--end {
-            grid-area: 2/3/3/2;  
-        }
-    
     }
 
     .link {
         text-align: left;
         padding: 6px 0;
-        margin: 0;
     }
 }
 
-@media screen and (min-width:576px) {
+@media screen and (min-width:992px) {
 
     .footer-container {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         align-items: flex-start;
     }
 
     .footer-container-links {
-        width:100%;
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        justify-content: flex-start;
-        align-items: flex-start;
-
-        &__link--start {
-            grid-area: 1/ 1 /1 /1;
-        }
-
-        &__link--center {
-            grid-area: auto/1/auto/2;
-        }
-
-        &__link--side {
-            grid-area: 1/2/2/3;
-            margin: 0;
-        }
-
-        &__link--end {
-            grid-area: 2/3/3/2;  
-        }
-
+        flex-direction: row;
+        align-items: center;
+        margin:0 auto;
     }
 
     .link {
@@ -120,4 +65,10 @@
         padding: 6px 0;
         margin: 0;
     }
+}
+
+@media screen and (min-width: 992px) {
+
+    
+
 }

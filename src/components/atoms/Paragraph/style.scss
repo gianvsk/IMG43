@@ -1,7 +1,7 @@
 @import '../../../style/style.scss';
 
 .paragraph {
-    margin:20px 0 0 0;
+    margin-top:18px;
 
     &__paragraph-text {
         width:100%;
@@ -11,8 +11,8 @@
         font-size: 12px;
         font-style: normal;
         line-height: 18px;
-        margin:0;
         opacity: 0.4000000059604645;
+        margin-top:0;
     }
 
     &__paragraph-text--passed {
@@ -23,7 +23,7 @@
         font-size: 15px;
         font-style: normal;
         line-height: 22px; 
-        margin:0;
         opacity: 0.6000000238418579;
+        margin-top:0;
     }
 }
